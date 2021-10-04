@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 // DB config
 const connection_url =
-  "mongodb+srv://user_node:Eg1ftgpzf3q6lwZP@cluster0.atzo8.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "this_should_be_your_own_db_string";
 
 mongoose
   .connect(connection_url, {
